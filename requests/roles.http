@@ -1,0 +1,32 @@
+###
+POST http://localhost:3000/api/roles
+Content-Type: application/json
+
+{
+    "name": "admin",
+    "description": "Administrador"
+    
+}
+
+###
+POST http://localhost:3000/api/roles
+Content-Type: application/json
+
+{
+    "name": "developer",
+    "description": "Desarollador"
+    
+}
+
+###
+POST http://localhost:3000/api/roles
+Content-Type: application/json
+
+{
+    "name": "owner",
+    "description": "Propietario"
+    
+}
+
+###
+GET http://localhost:3000/api/roles/b8d69e69-3cdc-4625-88df-0b45a065874c

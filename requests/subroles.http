@@ -1,0 +1,36 @@
+###
+POST http://localhost:3000/api/sub-roles
+Content-Type: application/json
+
+{
+    "name": "inquilino",
+    "description": "inquilino",
+    "role": "b8d69e69-3cdc-4625-88df-0b45a065874c"
+    
+}
+
+###
+POST http://localhost:3000/api/sub-roles
+Content-Type: application/json
+
+{
+    "name": "embajador",
+    "description": "embajador",
+    "role": "b8d69e69-3cdc-4625-88df-0b45a065874c"
+    
+}
+
+###
+POST http://localhost:3000/api/sub-roles
+Content-Type: application/json
+
+{
+    "name": "propietario superficie",
+    "description": "propietario superficie",
+    "role": "b8d69e69-3cdc-4625-88df-0b45a065874c"
+    
+}
+
+
+###
+GET http://localhost:3000/api/sub-roles/889a9563-5905-4565-aa8d-5edc1319333b

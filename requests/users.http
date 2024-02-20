@@ -1,0 +1,14 @@
+###
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "email": "nuevoadmin@gmail.com",
+    "password": "AbC1234",
+    "fullName": "Jorge Vivas",
+    "role": "b8d69e69-3cdc-4625-88df-0b45a065874c",
+    "subRoles": ["7376ef3a-1cb0-411c-96b1-28fb62c3b8d7", "889a9563-5905-4565-aa8d-5edc1319333b"]
+}
+
+###
+GET http://localhost:3000/api/auth/users
